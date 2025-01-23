@@ -2,7 +2,7 @@
 titulo.innerHTML = 'Jogo do número secreto';//para se referir ao html e modificar a variavel
 
 let paragrafo = document.querySelector('p');
-paragrafo.innerHTML = 'Escolha um número entre 1 e 10';*/
+paragrafo.innerHTML = 'Escolha um número entre 1 e 100';*/
 let listaDeNumerosSorteados = [];
 let numeroLimite = 100;//para alterar quanto numeros para acertar 
 let numeroSecreto = gerarNumeroAleatorio();
